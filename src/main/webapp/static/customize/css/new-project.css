@@ -1,0 +1,54 @@
+@charset "utf-8";
+/* 列表页面行高、距附加样式 */
+.list-data-line {
+	height: 40px;
+	line-height: 40px;
+	font-size: 14px;
+}
+
+/* 瀑布流图片样式 */
+.container-fluid {
+	margin-top: 8px;
+}
+
+.box {
+	margin-bottom: 8px;
+	float: left;
+	width: 230px;
+}
+
+.box img {
+	max-width: 100%
+}
+
+/* 瀑布流图片删除附加样式 */
+.del-still {
+	position: inherit;
+	top: 3px;
+	left: 3px;
+}
+
+.del-still img {
+	cursor: pointer;
+}
+
+/* 项目筹拍背景故事附加样式 */
+.pro-story-detail {
+	font-size: 14px;
+	padding-left: 8px;
+	padding-right: 8px;
+	margin-top: 15px;
+	line-height: 28px;
+}
+
+.pro-story-detail img {
+	max-width: 910px;
+	width: expression(width >     910 ?       "910" :       width "px");
+	overflow: hidden;
+}
+/* 所有添加、返回SPAN通用附加样式  */
+.span-toolbar-btn {
+	padding: 6px 15px;
+	background-color: #38b3d7;
+	font-size: 16px;
+}
